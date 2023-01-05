@@ -1,0 +1,46 @@
+.container {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.panel {
+    display: flex;
+    position: relative;
+}
+
+.list-group {
+    margin-top: 1rem;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove {
+    color: darkred;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-check-input {
+    margin-right: 0.5rem;
+}
+
+.done {
+    text-decoration: line-through;
+}
+.red {
+    border: 1px solid #f00;
+}
+.esc {
+    position: absolute;
+    left: 360px;
+    top: 5px;
+    color: #f00;
+    cursor: pointer;
+}
